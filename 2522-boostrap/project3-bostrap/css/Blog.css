@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    max-width: 100%;
+    display: block;
+}
+/* blog  */
+.blog-item h3 a {
+    transition: all 0.2s linear;
+}
+.blog-item h3 a:hover{
+    color: #1fb6fc !important;
+}

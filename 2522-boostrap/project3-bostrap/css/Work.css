@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    max-width: 100%;
+}
+/* work */
+.work{
+    transition: all 0.2s linear;
+}
+.work:hover{
+    background-color: rgba(21, 172, 231, 0.151);
+}
+.work-contain{
+    display: block;
+    transition: all 0.2s linear;
+}
+.work:hover .work-contain{
+    background-color: rgba(127, 255, 212, 0.659);
+}
+.work:hover .work-contain span{
+    color: white !important;
+}

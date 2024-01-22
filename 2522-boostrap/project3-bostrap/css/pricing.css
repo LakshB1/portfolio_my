@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* pricening  */
+.priceing-titile-contain p{
+    width: 812px; 
+}
+.priceing-btn{
+    border-radius: 40px 40px 40px 0;
+    width: 60%;
+    padding-top: 1rem !important;
+    padding-bottom: 1rem !important;
+    transition: all 0.2s linear;
+}
+.priceing-item{
+    transition: all 0.5s linear;
+}
+.priceing-item:hover{
+    box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.3);
+}
+.priceing-btn:hover{
+    border-radius: 0 40px 40px 40px;
+}
